@@ -1,0 +1,23 @@
+@font-face {
+  font-family: 'DM sans';
+  src: url(./assets/fonts/DMSans-Regular.ttf);
+}
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+  font-family: 'DM sans', sans-serif !important;
+}
+svg {
+  vertical-align: initial;
+}
+::-webkit-scrollbar {
+  display: none;
+}

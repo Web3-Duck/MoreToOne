@@ -1,0 +1,19 @@
+.App {
+  min-height: 100vh;
+  background: url('./assets/img/back.png');
+  background-size: contain;
+  background-position: 0% 0%;
+}
+
+iframe {
+  pointer-events: none;
+}
+
+@keyframes mymove {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
